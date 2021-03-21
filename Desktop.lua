@@ -1,5 +1,5 @@
 --Variable
-local osVer = "MinuxGUI Alpha"
+local osVer = "MinuxGUI"
 local w,h = term.getSize()
 local brunning = true
 local slc = 0
