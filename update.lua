@@ -10,4 +10,5 @@ shell.run("wget https://raw.githubusercontent.com/kazu55/MinuxGUI/main/Login.lua
 shell.run("wget https://raw.githubusercontent.com/kazu55/MinuxGUI/main/Desktop.lua")
 shell.run("wget https://raw.githubusercontent.com/kazu55/MinuxGUI/main/MinuxNews.lua")
 shell.run("wget https://pastebin.com/raw/pnzdr8FB")
+shell.run("wget https://raw.githubusercontent.com/kazu55/MinuxGUI/master/update.lua")
 os.reboot()
