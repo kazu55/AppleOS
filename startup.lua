@@ -1,3 +1,4 @@
+os.pullEvent=os.pullEventRaw
 term.clear()
 term.setCursorPos(1,1)
 textutils.slowPrint("Welcome To")
