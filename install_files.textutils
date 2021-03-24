@@ -10,4 +10,6 @@
   ["/.boot/3"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/3",
   ["/.boot/4"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/4",
   ["/.boot/5"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/5",
+  ["/shutdown1.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/shutdown1.lua",
+  ["/shutdown2.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/shutdown2.lua",
 }
