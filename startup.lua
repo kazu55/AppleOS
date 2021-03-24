@@ -9,7 +9,7 @@ term.clear()
 
 
 term.clear()
-term.setCursorPos(23,10)
+term.setCursorPos(22,10)
 term.setTextColor(colors.green)
 term.write("M")
 term.setTextColor(colors.white)
