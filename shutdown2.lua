@@ -1,0 +1,7 @@
+term.setBackgroundColor(colors.black)
+term.setCursorPos(1,1)
+term.clear()
+print("Did you save before rebooting?")
+print("After saving, press the enter key.")
+read()
+os.reboot()
