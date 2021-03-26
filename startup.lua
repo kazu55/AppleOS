@@ -30,8 +30,6 @@ i = 0
 
 repeat
   term.setTextColor(colors.white)
-  term.setCursorPos(17,10)
-  print("Booting.Please Wait.")
   term.setCursorPos(25,11)
   term.write("|")
   term.setCursorPos(25,11)
@@ -59,6 +57,8 @@ repeat
   sleep(0.2)
   i = i + 1
 until i == 5
+
+shell.run("1")
 
 if i == 5 then
   term.setBackgroundColor(colors.blue)
