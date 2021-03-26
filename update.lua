@@ -15,5 +15,5 @@ shell.run("wget https://raw.githubusercontent.com/kazu55/MinuxGUI/master/MinuxNe
 shell.run("wget https://pastebin.com/raw/pnzdr8FB FileManager.lua")
 shell.run("wget https://raw.githubusercontent.com/kazu55/MinuxGUI/master/update.lua update.lua")
 shell.run("wget https://raw.githubusercontent.com/kazu55/MinuxGUI/master/BootMenu.lua BootMenu.lua")
-shell.run("https://raw.githubusercontent.com/kazu55/MinuxGUI/master/1.lua 1.lua")
+shell.run("wget https://raw.githubusercontent.com/kazu55/MinuxGUI/master/1.lua 1.lua")
 os.reboot()
