@@ -14,7 +14,7 @@ local menu = {
 	[" Logout          "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 3; cmd = function() term.clear() term.setBackgroundColor(colors.black) shell.run("Login") end}; --Logout Now
 	[" Reboot          "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 4; cmd = function() shell.run("background shutdown2") end}; --Reboot Now
 	[" File Explorer   "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 5; cmd = function() shell.run("background FileManager") end}; --FileManager
-	[" Minux News      "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 6; cmd = function() shell.run("background MinuxNews") end}; --Minux News
+	[" AppleOS News    "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 6; cmd = function() shell.run("background MinuxNews") end}; --Minux News
 	[" Update MinuxGUI "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 7; cmd = function() shell.run("update") end}; --Update
 	
 }
