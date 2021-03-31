@@ -10,12 +10,11 @@ local _mback = 128
 --Tables
 local menu = {
 	[""] = {tcol = _mtext; bcol = _mback; x = 1; xx = 7; y = 1; cmd = function() slc = 1 end};
-	[" Shutdown        "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 2; cmd = function() shell.run("background shutdown1") end}; --Shutdown Now
-	[" Logout          "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 3; cmd = function() term.clear() term.setBackgroundColor(colors.black) shell.run("Login") end}; --Logout Now
-	[" Reboot          "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 4; cmd = function() shell.run("background shutdown2") end}; --Reboot Now
-	[" File Explorer   "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 5; cmd = function() shell.run("background FileManager") end}; --FileManager
-	[" AppleOS News    "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 6; cmd = function() shell.run("background MinuxNews") end}; --Minux News
-	[" Update MinuxGUI "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 7; cmd = function() shell.run("update") end}; --Update
+	[" Shutdown        "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 2; cmd = function() term.setBackgroundColor(colors.black) term.clear() term.setCursorPos(1,1) shell.run("shutdown1") end}; --Shutdown Now
+	[" Reboot          "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 3; cmd = function() term.setBackgroundColor(colors.black) term.clear() term.setCursorPos(1,1) shell.run("shutdown2") end}; --Reboot Now
+	[" File Explorer   "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 4; cmd = function() term.setBackgroundColor(colors.black) term.clear() term.setCursorPos(1,1) shell.run("FileManager") end}; --FileManager
+	[" AppleOS News    "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 5; cmd = function() term.setBackgroundColor(colors.black) term.clear() term.setCursorPos(1,1) shell.run("MinuxNews") end}; --Minux News
+	[" Update AppleOS  "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 6; cmd = function() term.setBackgroundColor(colors.black) term.clear() term.setCursorPos(1,1) shell.run("update") end}; --Update
 	
 }
 --Functions
