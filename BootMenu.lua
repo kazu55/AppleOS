@@ -1,3 +1,4 @@
+print("CraftOS,AppleOS")
 Boot = ("CraftOS")
 Boot1 = ("AppleOS")
 a = read()
