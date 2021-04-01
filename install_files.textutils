@@ -14,4 +14,5 @@
   ["/shutdown2.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/shutdown2.lua",
   ["/1.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/1.lua",
   ["/BootMenu.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/BootMenu.lua",
+  ["/errorMSG.lua"] = "https://raw.githubusercontent.com/kazu55/AppleOS/master/errorMSG.lua",
 }
