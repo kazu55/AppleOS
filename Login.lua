@@ -1,4 +1,4 @@
-Key = "VvjhYxsiTyF4"
+Key = "myMWF7ALeSFG"
 
 if fs.exists("key.txt") == true then
   shell.run("Desktop")
