@@ -1,19 +1,9 @@
-Admin = ("5161")
-user2 = ("1234")
-term.clear()
-term.setCursorPos(1,1)
-print("Enter PIN.")
+Key = ("VvjhYxsiTyF4")
+
+print("Please write the key")
 a = read()
---Admin
-if a == Admin then
-  print("PIN correct!")
-  shell.run("Desktop.lua")
---User2
-elseif a == user2 then
-  print("PIN correct!")
-  shell.run("Desktop.lua")
-  --User2end
+
+if a == Key then
+  shell.run("Desktop")
 else
-  print("PIN incorrect!")
-  shell.run("Login.lua")
-end
+  shell.run("Login")
