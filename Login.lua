@@ -12,5 +12,5 @@ if a == Key then
   h.close()
   shell.run("Desktop")
 else
-  shell.run("test")
+  shell.run("Login")
 end
