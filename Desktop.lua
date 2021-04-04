@@ -15,7 +15,9 @@ local menu = {
 	[" File Explorer   "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 4; cmd = function() term.setBackgroundColor(colors.black) term.clear() term.setCursorPos(1,1) shell.run("FileManager") end}; --FileManager
 	[" AppleOS News    "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 5; cmd = function() term.setBackgroundColor(colors.black) term.clear() term.setCursorPos(1,1) shell.run("MinuxNews") end}; --Minux News
 	[" Update AppleOS  "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 6; cmd = function() term.setBackgroundColor(colors.black) term.clear() term.setCursorPos(1,1) shell.run("update") end}; --Update
-	
+	[" CustomProgram1  "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 7; cmd = function() end};
+	[" CustomProgram2  "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 8; cmd = function() end};
+
 }
 --Functions
 local function tb_Draw()
