@@ -10,7 +10,7 @@ while true do
   if event == "timer" and par1 == myTimer then
     break
   elseif event == "key" then
-    print("Start BootSelector...")
+    print("Starting BootMenu...")
     term.setBackgroundColor(colors.black)
     sleep(1.261)
     term.clear()
