@@ -1,4 +1,11 @@
 os.pullEvent=os.pullEventRaw
+
+local function centerText(text)
+  local x,y = term.getSize()
+  local x2,y2 = term.getCursorPos()
+  term.setCursorPos(math.ceil((x / 2) - (text:len() / 2)), y2)
+  write(text)
+end
 term.setBackgroundColor(colors.cyan)
 term.clear()
 sleep(0.3)
@@ -8,23 +15,8 @@ term.clear()
 
 
 term.clear()
-term.setCursorPos(23,10)
-term.setTextColor(colors.green)
-term.write("A")
-term.setTextColor(colors.white)
-term.write("P")
-term.setTextColor(colors.yellow)
-term.write("P")
-term.setTextColor(colors.green)
-term.write("L")
-term.setTextColor(colors.cyan)
-term.write("E")
-term.setTextColor(colors.white)
-term.write(" ")
-term.setTextColor(colors.white)
-term.write("O")
-term.setTextColor(colors.white)
-term.write("S")
+term.setTextColor(colors.red)
+centerText("AppleOS")
 sleep(2)
 term.clear()
 
