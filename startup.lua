@@ -19,6 +19,7 @@ term.setTextColor(colors.red)
 centerText("AppleOS")
 sleep(2)
 term.clear()
+term.setTextColor(colors.white)
 
 shell.run("1")
 
