@@ -4,9 +4,13 @@ local function centerTextXY(text)
   io.write(text)
 end
 
-term.setBackgroundColor(colors.black)
-term.clear()
-term.setCursorPos(1,1)
-centerTextXY("Shutting Down")
-sleep(1)
-os.shutdown()
+os.loadAPI("diaAPI.lua")
+Variable = diaAPI.yesorno(4,4,"Shutting Down","AppleOS")
+if Variable == true then
+  term.setBackgroundColor(colors.black)
+  term.clear()
+  term.setCursorPos(1,1)
+  centerTextXY("Shutting Down")
+  sleep(1)
+  os.shutdown()
+end
