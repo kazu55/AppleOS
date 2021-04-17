@@ -25,6 +25,7 @@ sleep(2)
 term.clear()
 centerTextXY("Loading...")
 sleep(2)
+term.setCursorPos(1,1)
 print(fs.exists("Desktop.lua"))
 sleep(0.2)
 
