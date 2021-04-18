@@ -1,3 +1,9 @@
+local function centerTextXY(text)
+  local w, h = term.getSize()
+  term.setCursorPos(math.floor(w / 2 - text:len() / 2 + .5), math.floor(h / 2 + .5))
+  io.write(text)
+end
+
 term.clear()
 term.setBackgroundColor(colors.black)
 shell.run("rm startup.lua")
@@ -14,4 +20,10 @@ shell.run("rm /.boot/")
 shell.run("rm Login.lua")
 shell.run("rm diaAPI.lua")
 shell.run("pastebin get k7Gb1iMn startup")
+
+term.setBackgroundColor(colors.black)
+term.clear()
+term.setCursorPos(1,1)
+centerTextXY("Restarting")
+sleep(1)
 os.reboot()
