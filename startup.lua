@@ -13,13 +13,13 @@ local function centerText(text)
   write(text)
 end
 
-term.setBackgroundColor(colors.blue)
+term.setBackgroundColor(colors.black)
 term.clear()
 
 
 
 term.clear()
-term.setTextColor(colors.red)
+term.setTextColor(colors.white)
 centerTextXY("AppleOS")
 sleep(2)
 term.clear()
