@@ -5,7 +5,7 @@ local function centerTextXY(text)
 end
 
 os.loadAPI("diaAPI.lua")
-Variable = diaAPI.yesorno(4,4,"Shutting Down","Confirm")
+Variable = diaAPI.yesorno(4,4,"Shutting Down?","Confirm")
 if Variable == true then
   term.setBackgroundColor(colors.black)
   term.clear()
