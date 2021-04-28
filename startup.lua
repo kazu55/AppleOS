@@ -42,11 +42,12 @@ print(fs.exists("shutdown2.lua"))
 sleep(0.23)
 
 term.setTextColor(colors.white)
+term.clear()
+sleep(3)
 
 
 
-
-term.setBackgroundColor(colors.black)
+term.setBackgroundColor(colors.blue)
 term.clear()
 sleep(0.5)
 shell.run("1")
