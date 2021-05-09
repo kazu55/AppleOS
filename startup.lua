@@ -20,6 +20,7 @@ term.clear()
 term.setTextColor(colors.white)
 term.setBackgroundColor(colors.blue)
 centerTextXY("Hello.")
+term.setBackgroundColor(colors.blue)
 sleep(2)
 term.clear()
 
