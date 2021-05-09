@@ -18,6 +18,7 @@ shell.run("Login")
 
 term.clear()
 term.setTextColor(colors.white)
+term.setBackgroundColor(colors.blue)
 centerTextXY("Hello.")
 sleep(2)
 term.clear()
